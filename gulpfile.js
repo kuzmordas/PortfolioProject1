@@ -2,7 +2,10 @@ let gulp         = require('gulp'),
     sass         = require('gulp-sass'),
     browserSync  = require('browser-sync'),
     autoprefixer = require('gulp-autoprefixer'),
-    del          = require('del');
+    del          = require('del'),
+    imagemin    = require('gulp-imagemin'),
+    pngquant    = require('imagemin-pngquant'),
+    cache       = require('gulp-cache');
 
 gulp.task('sass', function() {
     return gulp.src(['app/sass/common.blocks/**/*.scss',
@@ -11,6 +14,17 @@ gulp.task('sass', function() {
                .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
                .pipe(gulp.dest('app/css/common.blocks/'))
                .pipe(browserSync.reload({stream: true}));
+});
+
+gulp.task('img', function() {
+    return gulp.src('app/img/**/*')
+        .pipe(imagemin(cache({ 
+            interlaced: true,
+            progressive: true,
+            svgoPlugins: [{removeViewBox: false}],
+            use: [pngquant()]
+        })))
+        .pipe(gulp.dest('dist/img'));
 });
 
 gulp.task('browser-sync', function() {
@@ -30,7 +44,7 @@ gulp.task('clean', function() {
     return del.sync('dist');
 });
 
-gulp.task('build', ['clean', 'sass'], function() {
+gulp.task('build', ['clean', 'img', 'sass'], function() {
 
     gulp.src(['app/css/common.blocks/**/*.css'])
         .pipe(gulp.dest('dist/css/common.blocks'));
