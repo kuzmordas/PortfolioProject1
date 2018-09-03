@@ -1,7 +1,8 @@
 let gulp         = require('gulp'),
     sass         = require('gulp-sass'),
     browserSync  = require('browser-sync'),
-    autoprefixer = require('gulp-autoprefixer');
+    autoprefixer = require('gulp-autoprefixer'),
+    del          = require('del');
 
 gulp.task('sass', function() {
     return gulp.src('app/sass/common.blocks/**/*.scss')
@@ -22,4 +23,17 @@ gulp.task('browser-sync', function() {
 
 gulp.task('watch', ['browser-sync', 'sass'], function() {
     gulp.watch('app/sass/common.blocks/**/*.scss', ['sass']);
+});
+
+gulp.task('clean', function() {
+    return del.sync('dist');
+});
+
+gulp.task('build', ['clean', 'sass'], function() {
+
+    gulp.src(['app/css/common.blocks/**/*.css'])
+        .pipe(gulp.dest('dist/css/common.blocks'));
+
+    gulp.src('app/*.html')
+        .pipe(gulp.dest('dist'));
 });
