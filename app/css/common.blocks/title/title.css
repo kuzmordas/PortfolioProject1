@@ -1,0 +1,51 @@
+.title {
+  height: inherit;
+  -webkit-flex-basis: 900px;
+      -ms-flex-preferred-size: 900px;
+          flex-basis: 900px; }
+  .title__logo {
+    width: 280px;
+    height: 60px;
+    margin: 140px auto 0px auto;
+    background: url("../../../img/logo.png") no-repeat; }
+  .title__subscribe-info {
+    text-align: center;
+    margin: 30px 0 65px 0; }
+  .title__subscribe-form {
+    margin: 0 auto;
+    height: 130px;
+    max-width: 770px;
+    background-color: white;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .title__subscribe-input[type="text"] {
+    padding: 0 0 0 20px;
+    width: 226px;
+    height: 46px;
+    background-color: #f0f0f0;
+    font-size: 14pt; }
+  .title__subscribe-input_name {
+    margin-left: 40px;
+    border: 2px solid #f0f0f0; }
+  .title__subscribe-input_mail {
+    border: 2px solid #e6e5e5; }
+  .title__subscribe-input[type="submit"] {
+    margin-right: 40px;
+    padding: 0;
+    border: 0;
+    width: 150px;
+    height: 50px;
+    background-color: #395e66;
+    font-size: 14pt;
+    color: white;
+    cursor: pointer; }

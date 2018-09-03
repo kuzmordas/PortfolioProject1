@@ -1,5 +1,29 @@
 .content {
-    height: 300px;
-    width: 300px;
-    background-color: red;
+    width: 100%;
+    &__title-wrapper {
+        background: linear-gradient(#d1d1d1 70%, #ffffff);
+        height: 560px;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__info-wrapper {
+        height: 450px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__video-wrapper {
+        height: 620px;
+        background-color: #d1d1d1;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__clients-wrapper {
+        height: 800px;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 }

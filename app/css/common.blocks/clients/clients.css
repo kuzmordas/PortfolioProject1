@@ -1,0 +1,40 @@
+.clients {
+  height: inherit;
+  max-width: 1100px; }
+  .clients__header {
+    margin: 100px 0 0 0;
+    text-align: center;
+    font-size: 16px;
+    color: #454546; }
+  .clients__dot-img {
+    margin: 40px auto 90px auto;
+    width: 90px;
+    height: 25px;
+    background: url("../../../img/Separator2.png") center center no-repeat; }
+  .clients__client-card-wrapper {
+    margin: 0 auto;
+    width: 710px;
+    height: 390px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    overflow-y: auto;
+    min-width: 100%; }
+  .clients__radio {
+    margin: 30px auto 0 auto;
+    width: 70px;
+    height: 15px; }
+  .clients__client-card {
+    -webkit-flex-basis: 710px;
+        -ms-flex-preferred-size: 710px;
+            flex-basis: 710px; }

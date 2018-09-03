@@ -1,0 +1,43 @@
+.client-card {
+  width: 710px;
+  height: auto; }
+  .client-card__talks {
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    line-height: 36px;
+    color: #7c7b7b; }
+  .client-card__dot-img {
+    margin: 30px auto 30px auto;
+    width: 10px;
+    height: 25px;
+    background: url("../../../img/Separator.png") center center no-repeat; }
+  .client-card__foto-wrapper {
+    margin: 0 auto;
+    width: 70px;
+    height: 70px; }
+  .client-card__quote {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 5;
+    background: url("../../../img/quotes.png") center center no-repeat; }
+  .client-card__foto {
+    margin: 0;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -30px;
+    -webkit-border-radius: 35px;
+            border-radius: 35px;
+    background-color: #d1d1d1; }
+  .client-card__client-name {
+    margin: 30px 0 0 0;
+    text-align: center;
+    font-size: 16px;
+    color: #454546; }
+  .client-card__client-job {
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-size: 16px;
+    color: #454546; }

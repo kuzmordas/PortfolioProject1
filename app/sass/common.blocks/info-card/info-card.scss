@@ -1,0 +1,41 @@
+.info-card {
+    width: 300px;
+    height: auto;
+    &__img {
+        margin: 0 auto;
+        width: 50px;
+        height: 50px;
+        &_img-1 {
+            background: url('../../../img/mobile_friendly.png') center center no-repeat;
+        }
+        &_img-2 {
+            background: url('../../../img/retina_ready.png') center center no-repeat;
+        }
+        &_img-3 {
+            background: url('../../../img/well_documented.png') center center no-repeat;
+        }
+    }
+    &__dot-img {
+        margin: 35px auto 35px auto;
+        width: 10px;
+        height: 25px;
+        background: url('../../../img/Separator.png') center center no-repeat;
+    }
+    &__header {
+        margin: 0;
+        text-align: center;
+        font-size: 16px;
+        color: #454546;
+    }
+    &__text-wrapper {
+        margin: 40px auto 0 auto;
+        width: 265px;
+    }
+    &__text {
+        margin: 0;
+        text-align: center;
+        font-size: 14px;
+        line-height: 28px;
+        color: #727272;
+    }
+}
