@@ -18,10 +18,27 @@
   .clients__client-card-container {
     width: 2150px;
     height: inherit; }
+  .clients__radio-input_hidden {
+    display: none; }
   .clients__controls {
     margin: 30px auto 0 auto;
     width: 75px;
-    height: 15px; }
+    height: 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+  .clients__controls-label {
+    display: block;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    background-color: #7c7b7b; }
   .clients__client-card {
     display: inline-block; }
 
@@ -48,3 +65,8 @@
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
+
+#card-1:checked ~ .clients__controls > .clients__controls-label[for="card-1"],
+#card-2:checked ~ .clients__controls > .clients__controls-label[for="card-2"],
+#card-3:checked ~ .clients__controls > .clients__controls-label[for="card-3"] {
+  background-color: black; }

@@ -22,10 +22,24 @@
         width: 2150px;
         height: inherit;
     }
+    &__radio-input_hidden {
+        display: none;
+    }
     &__controls {
         margin: 30px auto 0 auto;
         width: 75px;
         height: 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__controls-label {
+        display:block;
+        width:15px;
+        height:15px;
+        cursor:pointer;
+        -moz-border-radius:  50%;
+        border-radius:  50%;
+        background-color:#7c7b7b;
     }
     &__client-card {
         display: inline-block;
@@ -45,4 +59,10 @@
 #card-3:checked ~ .clients__client-card-wrapper > .clients__client-card-container {
     transform: translateX(-1425px);
     transition: 0.5s;
+}
+
+#card-1:checked ~ .clients__controls > .clients__controls-label[for="card-1"],
+#card-2:checked ~ .clients__controls > .clients__controls-label[for="card-2"],
+#card-3:checked ~ .clients__controls > .clients__controls-label[for="card-3"] {
+    background-color: black;
 }
