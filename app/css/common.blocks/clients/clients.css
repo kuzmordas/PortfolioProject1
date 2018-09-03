@@ -12,29 +12,39 @@
     height: 25px;
     background: url("../../../img/Separator2.png") center center no-repeat; }
   .clients__client-card-wrapper {
-    margin: 0 auto;
     width: 710px;
     height: 390px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    overflow-y: auto;
-    min-width: 100%; }
-  .clients__radio {
+    overflow: hidden; }
+  .clients__client-card-container {
+    width: 2150px;
+    height: inherit; }
+  .clients__controls {
     margin: 30px auto 0 auto;
-    width: 70px;
+    width: 75px;
     height: 15px; }
   .clients__client-card {
-    -webkit-flex-basis: 710px;
-        -ms-flex-preferred-size: 710px;
-            flex-basis: 710px; }
+    display: inline-block; }
+
+#card-1:checked ~ .clients__client-card-wrapper > .clients__client-card-container {
+  -webkit-transform: translateX(0px);
+      -ms-transform: translateX(0px);
+          transform: translateX(0px);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+#card-2:checked ~ .clients__client-card-wrapper > .clients__client-card-container {
+  -webkit-transform: translateX(-715px);
+      -ms-transform: translateX(-715px);
+          transform: translateX(-715px);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+#card-3:checked ~ .clients__client-card-wrapper > .clients__client-card-container {
+  -webkit-transform: translateX(-1425px);
+      -ms-transform: translateX(-1425px);
+          transform: translateX(-1425px);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
