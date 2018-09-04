@@ -1,0 +1,18 @@
+.team-member {
+  width: 250px;
+  height: auto; }
+  .team-member__photo {
+    margin: 0 auto;
+    width: 240px;
+    height: 240px;
+    background-color: #d1d1d1; }
+  .team-member__name {
+    margin: 80px 0 0 0;
+    text-align: center;
+    font-size: 16px;
+    color: #454546; }
+  .team-member__job {
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-size: 16px;
+    color: #454546; }
