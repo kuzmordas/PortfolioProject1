@@ -1,0 +1,43 @@
+.gallery__header {
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  color: #454546; }
+
+.gallery__dot-img {
+  margin: 40px auto 90px auto;
+  width: 90px;
+  height: 25px;
+  background: url("../../../img/Separator2.png") center center no-repeat; }
+
+.gallery__imgs {
+  height: 860px;
+  width: 1100px;
+  display: grid;
+  grid-template-columns: 530px 40px 530px;
+  grid-template-rows: 260px 40px 260px 40px 260px;
+  grid-template-areas: "a . b" "a . ." "a . c" ". . ." "d d d"; }
+
+.gallery__img {
+  overflow: hidden; }
+  .gallery__img_a {
+    grid-area: a; }
+  .gallery__img_b {
+    grid-area: b; }
+
+.gallery__img-wrapper_a {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translate(0%, 0%);
+      -ms-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+  background: url("../../../img/photo-1.jpeg") center center no-repeat; }
+
+.gallery__img-wrapper_b {
+  margin: 0;
+  position: relative;
+  -webkit-transform: translate(-10%, -50%);
+      -ms-transform: translate(-10%, -50%);
+          transform: translate(-10%, -50%);
+  background: url("../../../img/photo-2.jpeg") center center no-repeat; }

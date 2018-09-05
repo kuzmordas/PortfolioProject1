@@ -68,3 +68,17 @@
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center; }
+  .content__gallery-wrapper {
+    height: 1260px;
+    background-color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
