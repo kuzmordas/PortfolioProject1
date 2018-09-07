@@ -1,0 +1,43 @@
+.price-card {
+  width: 295px;
+  height: 570px;
+  border: 10px solid #d1d1d1; }
+  .price-card__price {
+    margin: 50px 0 0 0;
+    text-align: center;
+    font-size: 16px;
+    color: #454546; }
+  .price-card__dot-img {
+    margin: 45px auto 30px auto;
+    width: 10px;
+    height: 25px;
+    background: url("../../../img/Separator.png") center center no-repeat; }
+  .price-card__name {
+    margin: 50px 0 40px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #454546; }
+  .price-card__specification {
+    list-style-type: none;
+    margin: 0 0 0 50px;
+    padding: 0; }
+  .price-card__specification-item {
+    margin: 0 0 25px 0;
+    font-size: 16px;
+    color: #454546; }
+  .price-card__specification-item:last-child {
+    margin: 0; }
+  .price-card__start-button {
+    display: block;
+    margin: 60px auto 0 auto;
+    padding: 0;
+    border: 0;
+    width: 150px;
+    height: 50px;
+    background-color: #395e66;
+    font-size: 14pt;
+    color: white;
+    cursor: pointer; }
+
+.price-card:nth-child(2) {
+  border: 10px solid rgba(255, 255, 0, 0.548); }

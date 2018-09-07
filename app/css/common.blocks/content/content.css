@@ -82,3 +82,17 @@
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center; }
+  .content__price-wrapper {
+    height: 1000px;
+    background-color: #f0f0f0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }

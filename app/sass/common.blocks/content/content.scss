@@ -40,4 +40,11 @@
         justify-content: space-around;
         align-items: center;
     }
+    &__price-wrapper {
+        height: 1000px;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
