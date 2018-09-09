@@ -1,29 +1,12 @@
 .price {
     height: auto;
     width: 1100px;
-    &__header {
-        margin: 0;
-        text-align: center;
-        font-size: 16px;
-        color: #454546;
+    display: flex;
+    justify-content: space-between;
+    &__card {
+        border: 5px solid #d1d1d1;
     }
-    &__text {
-        margin: 0;
-        text-align: center;
-        font-size: 16px;
-        line-height: 28px;
-        color: #727272;
-    }
-    &__dot-img {
-        margin: 40px auto 90px auto;
-        width: 90px;
-        height: 25px;
-        background: url('../../../img/Separator2.png') center center no-repeat;
-    }
-    &__price-cards {
-        margin: 0 auto;
-        width: inherit;
-        display: flex;
-        justify-content: space-between;
+    &__card:nth-child(2) {
+        border: 5px solid #f9e074;
     }
 }

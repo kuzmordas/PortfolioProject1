@@ -1,0 +1,21 @@
+.corp-client {
+  -webkit-flex-basis: 226px;
+      -ms-flex-preferred-size: 226px;
+          flex-basis: 226px;
+  height: 86px; }
+  .corp-client_corp-1 {
+    background: url("../../../img/rackspace.png") center center no-repeat; }
+  .corp-client_corp-2 {
+    background: url("../../../img/digital_ocean.png") center center no-repeat; }
+  .corp-client_corp-3 {
+    background: url("../../../img/earnest.png") center center no-repeat; }
+  .corp-client_corp-4 {
+    background: url("../../../img/evernote.png") center center no-repeat; }
+  .corp-client_corp-5 {
+    background: url("../../../img/Instagram.png") center center no-repeat; }
+  .corp-client_corp-6 {
+    background: url("../../../img/PayPal.png") center center no-repeat; }
+  .corp-client_corp-7 {
+    background: url("../../../img/yahoo.png") center center no-repeat; }
+  .corp-client_corp-8 {
+    background: url("../../../img/tlassian.png") center center no-repeat; }

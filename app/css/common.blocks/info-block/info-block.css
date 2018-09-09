@@ -1,0 +1,32 @@
+.info-block {
+  width: 1100px;
+  height: inherit; }
+  .info-block__header {
+    margin: 100px 0 0 0;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #2d4e55; }
+    .info-block__header_video {
+      margin: 160px 0 30px 0; }
+    .info-block__header_get-template {
+      margin: 90px 0 40px 0; }
+  .info-block__text {
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    color: #727272; }
+    .info-block__text_video, .info-block__text_get-template {
+      width: 500px;
+      margin: 0 auto; }
+  .info-block__separate-img-1 {
+    margin: 40px auto 90px auto;
+    width: 90px;
+    height: 25px;
+    background: url("../../../img/Separator2.png") center center no-repeat; }
+  .info-block__separate-img-2 {
+    margin: 40px auto 35px auto;
+    width: 10px;
+    height: 25px;
+    background: url("../../../img/Separator.png") center center no-repeat; }

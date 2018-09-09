@@ -1,0 +1,19 @@
+.project {
+    height: 300px;
+    width: 230px;
+    &__info {
+        margin: 0 0 45px 0;
+    }
+    &__company-name {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    &__desc {
+        font-size: 14px;
+    }
+    &__photo {
+        height: 230px;
+        width: inherit;
+        background-color: #d1d1d1;
+    }
+}

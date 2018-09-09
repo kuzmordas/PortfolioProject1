@@ -1,0 +1,15 @@
+.button {
+    display: block;
+    width: 196px;
+    height: 46px;
+    font-size: 14pt;
+    cursor: pointer;
+    &_white-backgound {
+        color: #395e66;
+        background-color: #ffffff;
+    }
+    &_green-background {
+        background-color: #395e66;
+        color: #ffffff;
+    }
+}

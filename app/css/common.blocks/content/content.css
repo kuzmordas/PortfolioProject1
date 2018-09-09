@@ -28,63 +28,32 @@
             align-items: center; }
   .content__video-wrapper {
     height: 620px;
-    background-color: #d1d1d1;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    background-color: #d1d1d1; }
   .content__clients-wrapper {
     height: 800px;
-    background-color: #ffffff;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    background-color: #ffffff; }
   .content__team-wrapper {
     height: 740px;
-    background-color: #f0f0f0;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    background-color: #f0f0f0; }
   .content__gallery-wrapper {
     height: 1260px;
-    background-color: #ffffff;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    background-color: #ffffff; }
   .content__price-wrapper {
     height: 1000px;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; }
+  .content__get-template-wrapper {
+    height: 420px;
+    background-color: #ffffff; }
+  .content__projects-wrapper {
+    height: 670px;
+    background-color: #f0f0f0; }
+  .content__subscribe-wrapper {
+    height: 340px;
+    background-color: #f0f0f0; }
+  .content__corp-clients-wrapper {
+    height: 620px;
+    background-color: #ffffff; }
+  .content__info-wrapper, .content__video-wrapper, .content__clients-wrapper, .content__team-wrapper, .content__gallery-wrapper, .content__price-wrapper, .content__get-template-wrapper, .content__projects-wrapper, .content__subscribe-wrapper, .content__corp-clients-wrapper {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;

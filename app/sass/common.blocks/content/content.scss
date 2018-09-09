@@ -15,34 +15,50 @@
     &__video-wrapper {
         height: 620px;
         background-color: #d1d1d1;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
     }
     &__clients-wrapper {
         height: 800px;
         background-color: #ffffff;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
     }
     &__team-wrapper {
         height: 740px;
         background-color: #f0f0f0;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
     }
     &__gallery-wrapper {
         height: 1260px;
         background-color: #ffffff;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
     }
     &__price-wrapper {
         height: 1000px;
         background-color: #f0f0f0;
+    }
+    &__get-template-wrapper {
+        height: 420px;
+        background-color: #ffffff;
+    }
+    &__projects-wrapper {
+        height: 670px;
+        background-color: #f0f0f0;
+    }
+    &__subscribe-wrapper {
+        height: 340px;
+        background-color: #f0f0f0;
+    }
+    &__corp-clients-wrapper {
+        height: 620px;
+        background-color: #ffffff;
+    }
+    &__info-wrapper,
+    &__video-wrapper,
+    &__clients-wrapper,
+    &__team-wrapper,
+    &__gallery-wrapper,
+    &__price-wrapper,
+    &__get-template-wrapper,
+    &__projects-wrapper,
+    &__subscribe-wrapper,
+    &__corp-clients-wrapper
+    {
         display: flex;
         justify-content: space-around;
         align-items: center;

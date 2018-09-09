@@ -1,0 +1,12 @@
+.button {
+  display: block;
+  width: 196px;
+  height: 46px;
+  font-size: 14pt;
+  cursor: pointer; }
+  .button_white-backgound {
+    color: #395e66;
+    background-color: #ffffff; }
+  .button_green-background {
+    background-color: #395e66;
+    color: #ffffff; }

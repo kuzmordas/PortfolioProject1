@@ -1,24 +1,38 @@
 .price-card {
-    width: 295px;
-    height: 570px;
-    border: 10px solid #d1d1d1;
-    &__price{
+    width: 305px;
+    height: 580px;
+    background-color: #ffffff;
+    &__star {
+        position: absolute;
+        margin-left: 238px;
+        width: 40px;
+        height: 40px;
+        background: url('../../../img/star.png') center center no-repeat;
+        background-color: #f9e074;
+    }
+    &__price {
         margin: 50px 0 0 0;
         text-align: center;
-        font-size: 16px;
-        color: #454546;
+        color: #7f7f7f;
+    }
+    &__price-value {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    &__price-time {
+        font-size: 14px;
     }
     &__dot-img {
-        margin: 45px auto 30px auto;
+        margin: 40px auto 30px auto;
         width: 10px;
         height: 25px;
         background: url('../../../img/Separator.png') center center no-repeat;
     }
     &__name {
-        margin: 50px 0 40px 0;
+        margin: 40px 0 40px 0;
         text-align: center;
-        font-size: 16px;
-        color: #454546;
+        font-size: 18px;
+        color: #7f7f7f;
     }
     &__specification {
         list-style-type: none;
@@ -27,8 +41,8 @@
     }
     &__specification-item {
         margin: 0 0 25px 0;
-        font-size: 16px;
-        color: #454546;
+        font-size: 14px;
+        color: #7f7f7f;
     }
     &__specification-item:last-child {
         margin: 0;
@@ -37,16 +51,17 @@
         display: block;
         margin: 60px auto 0 auto;
         padding: 0;
-        border: 0;
-        width: 150px;
-        height: 50px;
-        background-color: #395e66;
+        border: 2px solid #395e66;
+        width: 196px;
+        height: 46px;
         font-size: 14pt;
-        color: white;
+        color: #395e66;
+        background-color: #ffffff;
         cursor: pointer;
     }
 }
 
-.price-card:nth-child(2) {
-    border: 10px solid rgba(255, 255, 0, 0.548);
+.price-card:nth-child(2) .price-card__start-button {
+    background-color: #395e66;
+    color: #ffffff;
 }

@@ -1,0 +1,17 @@
+.corp-clients {
+  width: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .corp-clients__client {
+    border: 2px solid #eae9e9; }
+  .corp-clients__client:first-child {
+    margin-bottom: 60px; }

@@ -1,26 +1,11 @@
 .clients {
-    height: inherit;
-    max-width: 1100px;
-    &__header {
-        margin: 100px 0 0 0;
-        text-align: center;
-        font-size: 16px;
-        color: #454546;
-    }
-    &__dot-img {
-        margin: 40px auto 90px auto;
-        width: 90px;
-        height: 25px;
-        background: url('../../../img/Separator2.png') center center no-repeat;
-    }
     &__client-card-wrapper {
+        margin: 0 auto;
         width: 710px;
-        height: 390px;
         overflow: hidden;
     }
     &__client-card-container {
         width: 2150px;
-        height: inherit;
     }
     &__radio-input_hidden {
         display: none;

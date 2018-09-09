@@ -1,0 +1,12 @@
+.corp-clients {
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &__client {
+        border: 2px solid #eae9e9;
+    }
+    &__client:first-child {
+        margin-bottom: 60px;
+    }
+}

@@ -1,0 +1,13 @@
+.get-template__button {
+  margin: 30px auto 0 auto;
+  padding: 0;
+  border: 2px solid #395e66;
+  width: 196px;
+  height: 46px; }
+
+.get-template__trial-info {
+  margin: 20px 0 0 0;
+  text-align: center;
+  font-size: 16px;
+  color: #454546;
+  text-decoration: underline; }
