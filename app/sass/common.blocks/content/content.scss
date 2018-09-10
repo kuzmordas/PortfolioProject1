@@ -48,6 +48,10 @@
         height: 620px;
         background-color: #ffffff;
     }
+    &__mail-form-wrapper {
+        height: 700px;
+        background-color: #d1d1d1;
+    }
     &__info-wrapper,
     &__video-wrapper,
     &__clients-wrapper,
@@ -57,10 +61,22 @@
     &__get-template-wrapper,
     &__projects-wrapper,
     &__subscribe-wrapper,
-    &__corp-clients-wrapper
+    &__corp-clients-wrapper,
     {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
+
+    &__mail-form-wrapper
+    {
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+    }
+
+    &__mail-form {
+        margin-right: 200px;
+    }
+
 }

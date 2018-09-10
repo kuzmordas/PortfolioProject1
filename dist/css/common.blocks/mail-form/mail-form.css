@@ -1,0 +1,43 @@
+.mail-form {
+  width: 550px;
+  height: 500px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 50px 210px 30px 210px 50px;
+  grid-template-rows: 50px 50px 30px 50px 30px 160px 30px 50px 50px;
+  grid-template-areas: ". . . . ." ". a . b ." ". . . . ." ". c c c ." ". . . . ." ". d d d ." ". . . . ." ". e e e ." ". . . . ."; }
+  .mail-form__name {
+    grid-area: a;
+    padding-left: 20px;
+    border: 2px solid #eae9e9;
+    font-size: 14px;
+    color: #395e66; }
+  .mail-form__mail {
+    grid-area: b;
+    padding-left: 20px;
+    border: 2px solid #eae9e9;
+    font-size: 14px; }
+  .mail-form__theme {
+    grid-area: c;
+    padding-left: 20px;
+    border: 2px solid #eae9e9;
+    font-size: 14px; }
+  .mail-form__message {
+    grid-area: d;
+    padding: 20px;
+    border: 2px solid #eae9e9;
+    font-size: 14px;
+    resize: none; }
+  .mail-form__send-wrapper {
+    grid-area: e; }
+  .mail-form__button {
+    display: inline-block;
+    padding: 0;
+    border: 2px solid #395e66;
+    width: 150px; }
+  .mail-form__contact-mail {
+    margin-left: 30px;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    color: #395e66; }

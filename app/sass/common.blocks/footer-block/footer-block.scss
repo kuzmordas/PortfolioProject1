@@ -1,0 +1,38 @@
+.footer-block {
+    width: 230px;
+    height: 230px;
+    color: white;
+    &__header {
+        font-weight: bold;
+        &_not-bold {
+            font-weight: normal;
+        }
+    }
+    &__separate {
+        height: 60px;
+    }
+    &__text {
+        margin: 0;
+        font-size: 14px;
+    }
+    &__social-text {
+        margin: 0 0 0 15px;
+        font-size: 14px;
+    }
+    &__a {
+        display: block;
+        font-size: 14px;
+    }
+    &__social {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    &__icon {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        background-color: white;
+    }
+}

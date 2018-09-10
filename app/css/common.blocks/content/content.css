@@ -53,6 +53,9 @@
   .content__corp-clients-wrapper {
     height: 620px;
     background-color: #ffffff; }
+  .content__mail-form-wrapper {
+    height: 700px;
+    background-color: #d1d1d1; }
   .content__info-wrapper, .content__video-wrapper, .content__clients-wrapper, .content__team-wrapper, .content__gallery-wrapper, .content__price-wrapper, .content__get-template-wrapper, .content__projects-wrapper, .content__subscribe-wrapper, .content__corp-clients-wrapper {
     display: -webkit-box;
     display: -webkit-flex;
@@ -65,3 +68,18 @@
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center; }
+  .content__mail-form-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .content__mail-form {
+    margin-right: 200px; }
