@@ -3,9 +3,9 @@ let gulp         = require('gulp'),
     browserSync  = require('browser-sync'),
     autoprefixer = require('gulp-autoprefixer'),
     del          = require('del'),
-    imagemin    = require('gulp-imagemin'),
-    pngquant    = require('imagemin-pngquant'),
-    cache       = require('gulp-cache');
+    imagemin     = require('gulp-imagemin'),
+    pngquant     = require('imagemin-pngquant'),
+    cache        = require('gulp-cache');
 
 gulp.task('sass', function() {
     return gulp.src(['app/sass/common.blocks/**/*.scss',
@@ -41,7 +41,7 @@ gulp.task('watch', ['browser-sync', 'sass'], function() {
 });
 
 gulp.task('clean', function() {
-    return del.sync('dist');
+    return del.sync(['dist', '!dist/deploy.php']);
 });
 
 gulp.task('build', ['clean', 'img', 'sass'], function() {
