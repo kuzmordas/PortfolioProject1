@@ -5,11 +5,14 @@
         margin: 0 0 45px 0;
     }
     &__company-name {
-        font-size: 24px;
+        font-size: 18px;
+        letter-spacing: 2px;
         font-weight: bold;
+        color: #395e66;
     }
     &__desc {
         font-size: 14px;
+        color: #727272;
     }
     &__photo {
         height: 230px;

@@ -7,20 +7,24 @@
       -ms-flex-pack: distribute;
           justify-content: space-around; }
   .subscribe__input {
+    font-family: Raleway, Helvetica, sans-serif;
     margin-top: 60px;
     width: 390px;
     height: 60px;
     padding-right: 135px;
     padding-left: 20px;
     background-color: #ffffff;
-    font-size: 14pt; }
+    color: #727272;
+    font-size: 14px; }
   .subscribe__button {
+    font-family: Raleway, Helvetica, sans-serif;
     margin-left: -135px;
     height: 45px;
     width: 120px;
     background: #395e66;
     color: white;
-    font-size: 14pt;
+    font-size: 14px;
+    font-weight: bold;
     border: 0;
     -webkit-appearance: none;
     cursor: pointer; }

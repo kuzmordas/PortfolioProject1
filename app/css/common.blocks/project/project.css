@@ -4,10 +4,13 @@
   .project__info {
     margin: 0 0 45px 0; }
   .project__company-name {
-    font-size: 24px;
-    font-weight: bold; }
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #395e66; }
   .project__desc {
-    font-size: 14px; }
+    font-size: 14px;
+    color: #727272; }
   .project__photo {
     height: 230px;
     width: inherit;

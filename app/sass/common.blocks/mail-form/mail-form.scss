@@ -16,6 +16,7 @@
     ". e e e ."
     ". . . . .";
     &__name {
+        font-family: Raleway, Helvetica, sans-serif;
         grid-area: a;
         padding-left: 20px;
         border: 2px solid #eae9e9;
@@ -23,18 +24,21 @@
         color: #395e66;
     }
     &__mail {
+        font-family: Raleway, Helvetica, sans-serif;
         grid-area: b;
         padding-left: 20px;
         border: 2px solid #eae9e9;
         font-size: 14px;
     }
     &__theme {
+        font-family: Raleway, Helvetica, sans-serif;
         grid-area: c;
         padding-left: 20px;
         border: 2px solid #eae9e9;
         font-size: 14px;
     }
     &__message {
+        font-family: Raleway, Helvetica, sans-serif;
         grid-area: d;
         padding: 20px;
         border: 2px solid #eae9e9;
@@ -51,6 +55,7 @@
         width: 150px;
     }
     &__contact-mail {
+        font-family: Raleway, Helvetica, sans-serif;
         margin-left: 30px;
         padding: 0;
         border: 0;

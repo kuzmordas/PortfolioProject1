@@ -1,5 +1,6 @@
 .footer {
-    height: 560px;
+    font-family: Raleway, Helvetica, sans-serif;
+    height: 370px;
     background-color: #395e66;
     &__content {
         margin: 0 auto;
@@ -8,5 +9,42 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+    &__separate {
+        margin: 0 auto;
+        height: 100px;
+        background-color: #395e66;
+    }
+    &__separate-pic {
+        margin: 0 auto;
+        background: url('../../../img/Separato5.png') left center no-repeat;
+        height: 100px;
+        width: 500px;
+        background-color: #395e66;
+    }
+    &__to-top {
+        height: 80px;
+        background-color: #395e66;
+    }
+    &__button-arrow-pic {
+        display: inline-block;
+        margin: 0 10px 0 0;
+        width: 20px;
+        height: 20px;
+        background: url('../../../img/arrow.png') center center no-repeat;
+    }
+    &__button-text {
+        display: inline-block;
+        margin: 0;
+        height: 20px;
+    }
+    &__to-top-button {
+        display: flex;
+        color: white;
+        font-weight: bold;
+        height: 20px;
+        width: 140px;
+        margin: 0 auto;
+        cursor: pointer;
     }
 }

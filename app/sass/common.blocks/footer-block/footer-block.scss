@@ -1,6 +1,6 @@
 .footer-block {
     width: 230px;
-    height: 230px;
+    height: 270px;
     color: white;
     &__header {
         font-weight: bold;
@@ -9,11 +9,13 @@
         }
     }
     &__separate {
+        background: url('../../../img/Separato4.png') left center no-repeat;
         height: 60px;
     }
     &__text {
         margin: 0;
         font-size: 14px;
+        line-height: 38px;
     }
     &__social-text {
         margin: 0 0 0 15px;
@@ -22,6 +24,7 @@
     &__a {
         display: block;
         font-size: 14px;
+        line-height: 38px;
     }
     &__social {
         margin-bottom: 10px;

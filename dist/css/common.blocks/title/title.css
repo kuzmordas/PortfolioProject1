@@ -10,7 +10,12 @@
     background: url("../../../img/logo.png") no-repeat; }
   .title__subscribe-info {
     text-align: center;
-    margin: 30px 0 65px 0; }
+    margin: 30px 0 65px 0;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: #7c7c7c; }
   .title__subscribe-form {
     margin: 0 auto;
     height: 130px;
@@ -33,7 +38,10 @@
     width: 226px;
     height: 46px;
     background-color: #f0f0f0;
-    font-size: 14pt; }
+    font-size: 14px;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #7c7c7c; }
   .title__subscribe-input_name {
     margin-left: 40px;
     border: 2px solid #f0f0f0; }
@@ -46,6 +54,8 @@
     width: 150px;
     height: 50px;
     background-color: #395e66;
-    font-size: 14pt;
+    font-size: 14px;
     color: white;
-    cursor: pointer; }
+    cursor: pointer;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-weight: bold; }
