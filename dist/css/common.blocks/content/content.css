@@ -28,7 +28,7 @@
             align-items: center; }
   .content__video-wrapper {
     height: 620px;
-    background-color: #d1d1d1; }
+    background: url("../../../img/sky.jpg") no-repeat center/cover; }
   .content__clients-wrapper {
     height: 800px;
     background-color: #ffffff; }
@@ -69,6 +69,7 @@
         -ms-flex-align: center;
             align-items: center; }
   .content__mail-form-wrapper {
+    position: relative;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -82,4 +83,10 @@
         -ms-flex-align: center;
             align-items: center; }
   .content__mail-form {
-    margin-right: 200px; }
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    z-index: 99; }
+  .content__map {
+    width: 100%;
+    height: inherit; }

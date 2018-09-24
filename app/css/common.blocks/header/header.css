@@ -60,4 +60,15 @@
     width: 30px;
     height: 30px;
     -webkit-border-radius: 15px;
-            border-radius: 15px; }
+            border-radius: 15px;
+    cursor: pointer; }
+  .header__icon {
+    margin: 0;
+    width: 30px;
+    height: 30px; }
+    .header__icon_facebook {
+      background: url("../../../img/F.png") center center no-repeat; }
+    .header__icon_twitter {
+      background: url("../../../img/L.png") center center no-repeat; }
+    .header__icon_google {
+      background: url("../../../img/G.png") center center no-repeat; }

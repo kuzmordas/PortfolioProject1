@@ -9,7 +9,8 @@
     font-weight: 900;
     color: #2d4e55; }
     .info-block__header_video {
-      margin: 160px 0 30px 0; }
+      margin: 160px 0 30px 0;
+      color: #c8c8c8; }
     .info-block__header_get-template {
       margin: 90px 0 40px 0; }
   .info-block__text {
@@ -20,7 +21,8 @@
     color: #727272; }
     .info-block__text_video, .info-block__text_get-template {
       width: 500px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      color: #c8c8c8; }
   .info-block__separate-img-1 {
     margin: 40px auto 90px auto;
     width: 90px;

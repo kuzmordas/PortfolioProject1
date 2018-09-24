@@ -14,7 +14,7 @@
     }
     &__video-wrapper {
         height: 620px;
-        background-color: #d1d1d1;
+        background: url('../../../img/sky.jpg') no-repeat center/cover ;
     }
     &__clients-wrapper {
         height: 800px;
@@ -70,13 +70,22 @@
 
     &__mail-form-wrapper
     {
+        position: relative;
         display: flex;
         justify-content:flex-end;
         align-items: center;
     }
 
-    &__mail-form {
-        margin-right: 200px;
+    &__mail-form
+    {
+        position: absolute;
+        top: 100px;
+        right: 200px;
+        z-index: 99;
     }
 
+    &__map {
+        width: 100%;
+        height: inherit;
+    }
 }
